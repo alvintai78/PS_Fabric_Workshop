@@ -1,0 +1,13 @@
+ServiceId,ServiceType,ServiceCategory,DigitalMaturityLevel,IsCriticalService
+SVC001,Permit Application,Licensing,Integrated,True
+SVC002,Service Feedback,Citizen Experience,Basic,False
+SVC003,Grant Status Check,Grants,Proactive,True
+SVC004,Facility Issue Report,Municipal Services,Integrated,True
+SVC005,Public Transport Appeal,Transport,Integrated,True
+SVC006,Housing Assistance Request,Housing,Basic,True
+SVC007,Vaccination Appointment Support,Health,Proactive,True
+SVC008,Employment Support Enquiry,Employment,Integrated,False
+SVC009,Digital Account Help,Digital Services,Proactive,True
+SVC010,Business Grant Application,Grants,Integrated,True
+SVC011,Noise Complaint,Municipal Services,Basic,False
+SVC012,Road Defect Report,Transport,Integrated,True

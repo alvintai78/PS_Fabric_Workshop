@@ -1,0 +1,9 @@
+AgencyId,AgencyName,TeamId,TeamName,ServiceDomain,Region
+AGY001,Digital Services Office,TM001,Citizen Portal Team,Digital Services,Central
+AGY002,Municipal Services Group,TM002,Case Operations Team,Municipal Services,East
+AGY003,Business Licensing Office,TM003,Licensing Review Team,Licensing,West
+AGY004,Transport Services Office,TM004,Mobility Response Team,Transport,North
+AGY005,Housing Support Office,TM005,Housing Assistance Team,Housing,North-East
+AGY006,Community Grants Office,TM006,Grant Operations Team,Grants,Central
+AGY007,Public Health Services Office,TM007,Health Service Desk,Health,East
+AGY008,Employment Support Office,TM008,Workforce Case Team,Employment,West

@@ -1,0 +1,6 @@
+ChannelId,ChannelName,ChannelType
+CH001,Web,Digital
+CH002,Mobile App,Digital
+CH003,Call Centre,Assisted
+CH004,Service Centre,Physical
+CH005,Chatbot,Digital
