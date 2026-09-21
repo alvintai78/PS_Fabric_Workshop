@@ -27,6 +27,33 @@ Workshop capstone question:
 - [data-schemas/dataset-structure.md](data-schemas/dataset-structure.md)
 - [data/](data/) synthetic CSV dataset files
 - [scripts/generate_sample_data.py](scripts/generate_sample_data.py) deterministic data generator
+- [scripts/check_fabric_capacity_status.sh](scripts/check_fabric_capacity_status.sh) Fabric capacity status checker
+
+## Check Fabric Capacity Status
+
+Prerequisites:
+
+- Azure CLI authenticated with `az login`
+- Access to read the target subscription's Fabric capacities
+- `jq`
+
+Check every Fabric capacity in the current Azure subscription:
+
+```bash
+./scripts/check_fabric_capacity_status.sh
+```
+
+Check the workshop capacities in a specific subscription:
+
+```bash
+./scripts/check_fabric_capacity_status.sh \
+  --subscription 0422f447-88de-4ecb-8320-c528c69160c0 \
+  --resource-group-prefix rg_singapore-
+```
+
+Use `--no-color` for logs or `--json` for machine-readable output. The script
+returns exit code `2` when at least one capacity or provisioning operation is
+in a failed state.
 
 ## Dataset
 
