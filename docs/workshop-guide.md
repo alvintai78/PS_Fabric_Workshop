@@ -326,6 +326,10 @@ Example questions:
 - Which service has the lowest average citizen rating?
 - Are there real-time spikes in submitted requests?
 
+Use [data-agent-prompts.md](./data-agent-prompts.md) for copy/paste agent
+instructions, table descriptions, a five-minute CIO demonstration, operational
+follow-up prompts, and grounding tests.
+
 Completion criteria:
 
 - Data sources are added within the supported source limit.

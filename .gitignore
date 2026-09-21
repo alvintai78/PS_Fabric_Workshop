@@ -13,6 +13,10 @@ obj/
 # Logs / temp
 *.log
 .DS_Store
+.playwright-mcp/
 
 # Editor
 .vscode/
+
+# Local workshop credentials
+docs/username.md

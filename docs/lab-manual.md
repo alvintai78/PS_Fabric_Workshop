@@ -525,6 +525,10 @@ Test questions:
 - Which service has the lowest citizen rating?
 - Are live service events increasing in the last hour?
 
+For a facilitator-ready instruction block, CIO demonstration sequence, expanded
+prompt library, and grounding checks, use
+[data-agent-prompts.md](./data-agent-prompts.md).
+
 Exit criteria:
 
 - `CitizenServiceDataAgent` exists.
