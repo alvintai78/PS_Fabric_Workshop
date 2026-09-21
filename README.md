@@ -55,6 +55,30 @@ Use `--no-color` for logs or `--json` for machine-readable output. The script
 returns exit code `2` when at least one capacity or provisioning operation is
 in a failed state.
 
+### Resume And Scale Capacities To F64
+
+[scripts/resume_and_scale_fabric_capacities.sh](scripts/resume_and_scale_fabric_capacities.sh)
+shows the planned changes without modifying Azure:
+
+```bash
+./scripts/resume_and_scale_fabric_capacities.sh \
+  --subscription 0422f447-88de-4ecb-8320-c528c69160c0 \
+  --resource-group-prefix rg_singapore-
+```
+
+After reviewing the dry run, apply the changes:
+
+```bash
+./scripts/resume_and_scale_fabric_capacities.sh \
+  --subscription 0422f447-88de-4ecb-8320-c528c69160c0 \
+  --resource-group-prefix rg_singapore- \
+  --execute
+```
+
+The script requires an exact interactive confirmation before it resumes and
+scales capacities. Use `--yes` only for intentional non-interactive automation.
+Active F64 capacities can incur substantial Azure charges.
+
 ## Dataset
 
 The workshop includes generated synthetic CSV files:
