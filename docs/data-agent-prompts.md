@@ -54,11 +54,13 @@ services, channels, dates, and SLA targets.
 | `DimSLA` | SLA targets and escalation thresholds by service and priority. |
 
 ## During publish, put this description at the Description of purpose and capabilities field
+```text
 The Citizen Service Data Agent provides governed, conversational analysis of synthetic public-sector service operations data. It answers questions about service request volume, open backlog, SLA performance, resolution time, agency and team performance, service channels, citizen feedback, and historical operational events.
 
 The agent can produce executive summaries, compare performance across agencies and services, identify operational risks and trends, investigate SLA breaches, and support drill-down analysis using data in CitizenServiceLH. Its sources include service requests, agencies, services, channels, dates, SLA targets, citizen feedback, and historical service events.
 
 Answers are grounded only in approved Fabric data sources. The agent does not access or infer personal citizen information, and historical event data should not be interpreted as live operational data.
+```
 
 ## Five-Minute CIO Demonstration
 
